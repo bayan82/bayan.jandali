@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Bayan Jandali</title>
+
+<style>
+body {
+  margin: 0;
+  font-family: 'Cairo', sans-serif;
+  background: #0f172a;
+  color: #fff;
+}
+
+/* HEADER */
+header {
+  text-align: center;
+  padding: 60px 20px;
+  background: linear-gradient(135deg, #6366f1, #06b6d4);
+}
+
+header h1 {
+  margin: 0;
+  font-size: 3rem;
+}
+
+header p {
+  font-size: 1.2rem;
+}
+
+/* NAV */
+nav {
+  text-align: center;
+  background: #020617;
+  padding: 10px;
+}
+
+nav a {
+  color: white;
+  margin: 10px;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+/* CONTAINER */
+.container {
+  max-width: 1100px;
+  margin: auto;
+  padding: 20px;
+}
+
+/* CARD */
+.card {
+  background: #1e293b;
+  padding: 20px;
+  margin: 20px 0;
+  border-radius: 15px;
+  transition: 0.3s;
+}
+
+.card:hover {
+  transform: translateY(-5px);
+}
+
+h2 {
+  color: #38bdf8;
+}
+
+/* SKILLS */
+.skills span {
+  display: inline-block;
+  background: #334155;
+  padding: 8px 12px;
+  margin: 5px;
+  border-radius: 20px;
+}
+
+/* VIDEOS */
+.videos {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px,1fr));
+  gap: 15px;
+}
+
+iframe {
+  width: 100%;
+  height: 200px;
+  border-radius: 10px;
+  border: none;
+}
+
+/* FOOTER */
+footer {
+  text-align: center;
+  padding: 20px;
+  color: #aaa;
+}
+
+/* BUTTON */
+.btn {
+  display: inline-block;
+  background: #06b6d4;
+  padding: 10px 20px;
+  border-radius: 25px;
+  text-decoration: none;
+  color: white;
+  margin-top: 10px;
+}
+
+</style>
+</head>
+
+<body>
+
+<header>
+  <h1>Bayan Jandali</h1>
+  <p>مدربة برمجة | تكنولوجيا المعلومات</p>
+  <a href="#videos" class="btn">مشاهدة أعمال الطلاب</a>
+</header>
+
+<nav>
+  <a href="#about">عنّي</a>
+  <a href="#experience">الخبرات</a>
+  <a href="#skills">المهارات</a>
+  <a href="#videos">أعمال الطلاب</a>
+</nav>
+
+<div class="container">
+
+  <div class="card" id="about">
+    <h2>عنّي</h2>
+    <p>مدربة برمجة بخبرة 3 سنوات في تعليم الأطفال واليافعين عبر منصات أونلاين ومعاهد محلية.</p>
+    <p>العمر: 36 سنة | سوريا</p>
+  </div>
+
+  <div class="card" id="experience">
+    <h2>الخبرات</h2>
+    <ul>
+      <li>تدريب Scratch و HTML و CSS و JavaScript و ICDL</li>
+      <li>تنفيذ برامج صيفية ودورات مدرسية</li>
+      <li>أتمتة عيادات سنية باستخدام VB و SQL و JavaScript</li>
+    </ul>
+  </div>
+
+  <div class="card" id="skills">
+    <h2>المهارات</h2>
+    <div class="skills">
+      <span>HTML</span>
+      <span>CSS</span>
+      <span>JavaScript</span>
+      <span>VB</span>
+      <span>SQL</span>
+      <span>Scratch</span>
+    </div>
+  </div>
+
+  <div class="card" id="videos">
+    <h2>أعمال طلابي 🎓</h2>
+    <div class="videos">
+
+      <iframe src="https://www.youtube.com/embed/FjWocZl7OOs"></iframe>
+
+      <iframe src="https://www.youtube.com/embed/NoTAS58S5so"></iframe>
+
+      <iframe src="https://www.youtube.com/embed/p8j9L-Z3JtI"></iframe>
+
+    </div>
+  </div>
+
+</div>
+
+<footer>
+  © 2026 Bayan Jandali
+</footer>
+
+</body>
+</html>
